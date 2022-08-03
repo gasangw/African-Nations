@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Countries renders correctly 1`] = `
+Array [
+  <div
+    className="map container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-6"
+      >
+        <div
+          className="africa-image"
+        >
+          <img
+            alt="africa map"
+            src="images.jpg"
+          />
+        </div>
+      </div>
+      <div
+        className="righ-map-column col-6"
+        style={
+          Object {
+            "color": "blue",
+            "zIndex": "1",
+          }
+        }
+      >
+        <h3
+          style={
+            Object {
+              "paddingTop": "35px",
+            }
+          }
+        >
+          AFRICAN COUNTRIES
+        </h3>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="grid-container container"
+  />,
+]
+`;
