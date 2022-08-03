@@ -5,7 +5,8 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import { getCountries } from '../../redux/countries/countries';
 import Country from '../Country/Country';
-import map from '../../assets/countries.png';
+import images from '../../assets/images.jpg';
+import './countries.css';
 
 const Countries = () => {
   const dispatch = useDispatch();
@@ -19,11 +20,11 @@ const Countries = () => {
         <Row>
           <Col xs={6}>
             <div className="africa-image">
-              <img src={map} alt="africa map" />
+              <img src={images} alt="africa map" />
             </div>
           </Col>
-          <Col xs={6} className="righ-map-column" style={{ color: 'white', zIndex: '1' }}>
-            <h3 style={{ paddingTop: '40px' }}>AFRICA POPULATION</h3>
+          <Col xs={6} className="righ-map-column" style={{ color: 'blue', zIndex: '1' }}>
+            <h3 style={{ paddingTop: '35px' }}>AFRICAN COUNTRIES</h3>
           </Col>
         </Row>
       </Container>
