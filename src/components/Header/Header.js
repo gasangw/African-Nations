@@ -29,13 +29,13 @@ const Header = () => {
           <Navbar.Brand className="year">
             <FaLessThan className="icon" />
             {' '}
-            <span>2022</span>
+            <span>All</span>
           </Navbar.Brand>
         </Link>
         <Form className="d-flex justify-content-end flex-grow-1 pe-3" onSubmit={handleSubmit}>
           <Form.Control
             type="search"
-            placeholder="Search"
+            placeholder="Search your favorite country"
             className="me-2"
             aria-label="Search"
             value={search}
