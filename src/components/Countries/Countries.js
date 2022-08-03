@@ -9,8 +9,8 @@ import images from '../../assets/images.jpg';
 import './countries.css';
 
 const Countries = () => {
-  const dispatch = useDispatch();
   const countries = useSelector((state) => state.countries.countries);
+  const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getCountries());
   }, []);
