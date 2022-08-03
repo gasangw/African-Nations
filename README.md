@@ -15,7 +15,7 @@
 - CSS & HTML
 
 ## Live Demo 
-Feel free to check the [Live link]().
+Feel free to check the [Live link](https://african-nations.herokuapp.com/).
 
 ## Live Video
 [video link]().
