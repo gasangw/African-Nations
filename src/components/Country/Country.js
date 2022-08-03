@@ -25,11 +25,15 @@ const Country = ({ name, population }) => (
   </Row>
 );
 Country.defaultProps = {
+  // flags: {},
   name: {},
   population: PropTypes.number,
 };
 
 Country.propTypes = {
+  // flags: PropTypes.shape({
+  //   png: PropTypes.string,
+  // }),
   name: PropTypes.shape({
     common: PropTypes.string,
   }),
