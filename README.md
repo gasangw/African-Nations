@@ -40,9 +40,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- I acknowledge the User Interface Designer by Sakwa Design Studio
 
 ## 📝 License
 
