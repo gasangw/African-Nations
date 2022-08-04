@@ -29,7 +29,7 @@ const Countries = () => {
         </Row>
       </Container>
       <Container className="grid-container">
-        {Object.keys(countries).map((countryId) => {
+        {Object.keys(countries).filter((countries) => countries.includes(countries)).map((countryId) => {
           const {
             currencies, flags, name, population,
           } = countries[countryId];
