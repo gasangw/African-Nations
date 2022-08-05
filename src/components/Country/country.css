@@ -1,0 +1,10 @@
+.card-container {
+  margin: 0;
+  border: 1px solid rgb(194, 108, 108);
+  background-color: #c27392;
+}
+
+.card-container.card {
+  height: 176px;
+  padding: 8px;
+}
