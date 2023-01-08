@@ -15,7 +15,7 @@
 - CSS & HTML
 
 ## Live Demo 
-Feel free to check the [Live link](https://african-nations.herokuapp.com/).
+Feel free to check the [Live link](https://superb-entremet-5b6ecb.netlify.app/).
 
 ## Live Video
 [video link](https://www.loom.com/share/595aa1f29f624db68be1d70714a3c1d2).
